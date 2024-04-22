@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+}
+
+
+#fullPage{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#topicBox{
+    padding: 10px;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+
+}
+
+#graphBox{
+    overflow-y: auto;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+  
+}
+
+
+
+#mapBox{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+
+#map{
+    height: 1000px;
+    width: 1000px;
+}
+
+#map2{
+    height: 1000px;
+    width: 1000px;
+}
+
+#map3{
+    height: 1000px;
+    width: 1000px;
+}
+
+#map4{
+    height: 1000px;
+    width: 1000px;
+}
